@@ -78,7 +78,6 @@ class Sudoku {
                             }
                         }
                     }
-
                     return false; // we return false
                 }
             }
@@ -91,13 +90,10 @@ class Sudoku {
             for (int j = 0; j < SIZE; j++) {
                 System.out.print(" " + board[i][j]);
             }
-
             System.out.println();
         }
-
         System.out.println();
     }
-
 }
 
 public class Main {
